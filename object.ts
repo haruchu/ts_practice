@@ -1,3 +1,13 @@
+const person: {
+  name: string;
+  age: number;
+} = {
+  name: 'haru',
+  age: 98
+};
+
+console.log(person);
+
 class Person {
   name: string;
   age: number;
@@ -9,5 +19,4 @@ class Person {
 }
 
 const p1 = new Person('haru', 98);
-
 console.log(p1)
