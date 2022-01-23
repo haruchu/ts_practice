@@ -4,4 +4,6 @@ let userName: string;
 userInput = 5;
 userInput = 'haru';
 console.log(typeof userInput);
-userName = userInput;
+if (typeof userInput === 'string') {
+  userName = userInput;
+}
